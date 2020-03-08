@@ -1,0 +1,76 @@
+body {
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    font-family: serif;
+    text-align: center;
+    padding: 25px;
+    font-size: 26px;
+}
+
+.scoreboard {
+    border: solid white;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 200px;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    position: relative;
+}
+
+.badge {
+    background-color: red;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+
+#user {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#comp {
+    position: absolute;
+    top: 30px;
+    right: -25px
+}
+
+.makeAMove {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+}
+
+#result {
+   text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.choice {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.choices {
+    padding: 10px;
+    border: solid;
+    border-color: blue;
+    border-radius: 200px;
+}
+.choice:hover {
+    cursor: grab;
+}

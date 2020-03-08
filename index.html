@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>RPS</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="code.js"></script>
+</head>
+<body>
+    <header>Rock Paper Scissors</header>
+    <div class="scoreboard">
+        <div id="user" class="badge">user</div>
+        <div id="comp" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+    <div id="result">
+    <h2>Paper covers Rock</h2>
+    </div>
+    <p class="makeAMove">Make your move</p>
+    <div class="choice">
+        <img onclick="rock();" class = "choices" id="r" src="rock.png">
+        <img onclick="paper();" class = "choices" id="p" src="paper.png">
+        <img onclick ="scissors();" class = "choices" id="s" src="scissors.png">
+    </div>
+</body>
+</html>
